@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sở Thích</title>
+</head>
+<style>
+    body{
+        font-family: "Constantia";
+        width: 30%;
+        border-style: groove ;
+        padding: 10px;
+    }
+    .interests{
+        background-color:orangered;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .email{
+        text-align: right;
+        color: blue;
+    }
+    .tableOne{
+        padding-left:7px ;
+        color: orangered;
+    }
+    .tableSecond{
+        margin-left: 75px;
+    }
+    #container{
+        color: blue;
+    }
+</style>
+<body>
+    <form action="https://www.google.com.vn/?hl=vi" method="get">
+        <h2 class="interests">SỞ THÍCH CỦA BẠN</h2>
+        <table>
+            <tr>
+               <td class="email"><label>Họ và tên :</label></td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td class="email"><label>Email :</label></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <table class="tableOne">
+            <tr>
+                <td id="container">Sở thích :</td>
+                <td><input type="checkbox" name="hobby" >Thể thao</td>
+                <td><input type="checkbox" name="hobby" >Âm nhạc</td>
+                <td><input type="checkbox" name="hobby" >Đọc sách </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby" >Lướt web</td>
+                <td><input type="checkbox" name="hobby" >Chơi game </td>
+                <td><input type="checkbox" name="hobby" >Điện ảnh </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby" >Du lịch </td>
+            </tr>
+        </table>
+        <input class="tableSecond" type="Submit" value="Gửi thông tin">
+        <input type="Reset" value="Nhập lại">
+    </form>
+</body>
+</html>
